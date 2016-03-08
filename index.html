@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     
     <!-- FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
 
     <!-- NORMALIZE -->
@@ -45,6 +45,9 @@
     
     <!-- MAIN STYLESHEET -->
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="css/responsive.css">
 
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -58,7 +61,7 @@
 <!-- =========================
     HEADER
 ============================== -->
-<header class="header" id="header">
+<header class="home" id="home">
 <!--- NAV BAR   -->
 <nav class="navbar navbar-home navbar-fixed-top" role="navigation">
     <div class="container">
@@ -79,10 +82,10 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#home">Home <span class="sr-only">(current)</span></a></li>
                 <li><a href="#features">features</a></li>
-                <li><a href="#whythisapp">why this app?</a></li>
+                <li><a href="#why-this-app">why this app?</a></li>
                 <li><a href="#pricing">pricing</a></li>
                 <li><a href="#screenshoots">screenshoots</a></li>
-                <li><a href="#testimonial">testimonial</a></li>
+                <li><a href="#testominial">testimonial</a></li>
                 <li><a href="#download">download</a></li>
             </ul>
         </div><!-- /.NAV BAR COLLAPSE -->
@@ -97,16 +100,17 @@
 
     <div class="slider_content">
         <div class="container">
-            <h1>The New Big Thing App Landing</h1>
+            <h1 class="heading-text">The New Big 
+            Thing App Landing</h1>
 
-                <a href="#" class="btn btn-base btn-icon">
+                <a href="#" class="btn btn-base btn-lg">
                     <span class="media-left">
-                        <i class="icon svg-app-store"></i>
+                        <i class="fa fa-cloud-download"></i>
                     </span>
 
                     <span class="media-body">
                         <span class="small-text">Available on</span>
-                        <span class="big-text">App Store</span>
+                        <span class="big-text">Download Now</span>
                     </span>
                 </a>
         </div><!-- /.END OF CONTAINER -->
@@ -123,19 +127,26 @@
 <section class="features" id="features">
     <div class="container">
         <div class="row">
-            <h2></h2>
+
+            <header class="section-heading">
+                <h3 class="heading-text">Great Features</h3>
+            </header> <!-- /.section-heading -->
+            
             <!-- SINGEL-ITEM -->
             <div class="col-md-4 features_items">
+                <i class="fa fa-rocket"></i>
                 <h4>Custom Shortcodes</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
             <!-- SINGEL-ITEM -->
             <div class="col-md-4 features_items">
+                <i class="fa fa-microphone"></i>
                 <h4>Next Level Features</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
             <!-- SINGEL-ITEM -->
             <div class="col-md-4 features_items">
+                <i class="fa fa-bug"></i>
                 <h4>fontawsome icon</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
@@ -153,11 +164,14 @@
         <div class="row">
             <div class="">
                 <div class="col-md-6">
-                    <h2>Our Different Features</h2>
+                    <header class="section-heading">
+                        <h3 class="heading-text">Our Different Features</h3>
+                    </header> <!-- /.section-heading -->
+                    
                     <div class="diff-features-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ante ex, fermentum vel libero eget, interdum semper libero. Curabitur egestas, arcu id tempor convallisx ortor efficitur turpis, eget mattis tellus risus ut dolor tempus hendrerit vehicula. Curabitur er cursus blandit velit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magn aliquam erat volutpat.</p>
-                        <a href="" class="btn-secondary">see more</a>
                     </div>
+                    <a href="" class="btn-secondary">see more</a>
                 </div>
 
                 <div class="col-md-6">
@@ -181,33 +195,43 @@
             </div>
 
             <div class="col-md-6">
-                <h2>Great Display on Mobile</h2>
-                <ul class="list-block">
-                    <li>
-                        <h3>Unlock Features</h3>
-                        <i class=""></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea.</p>
+                <header class="section-heading">
+                    <h3 class="heading-text">Great Display on Mobile</h3>
+                </header> <!-- /.section-heading -->
+                
+                <div class="row">
+                    <ul class="list-block">
+                        <li class="col-md-6 pull-left">
+                            <h4>Unlock Features</h4>
+                            <i class="fa fa-unlock"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
 
-                    </li>
-                    <li>
-                        <h3>Modern Design</h3>
-                        <i class=""></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea.</p>
-                    </li>
-                </ul>
-                <ul class="list-block">
-                    <li>
-                        <h3>Fully Responsive</h3>
-                        <i class=""></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea.</p>
+                        </li>
+                        <li class="col-md-6">
+                            <h4>Fully Responsive</h4>
+                            <i class="fa fa-file-image-o"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
 
-                    </li>
-                    <li>
-                        <h3>Parallax Sections</h3>
-                        <i class=""></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea.</p>
-                    </li>
-                </ul>
+                        </li>
+                    
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <ul class="list-block">
+                        <li class="col-md-6 pull-left">
+                            <h4>Modern Design</h4>
+                            <i class="fa fa-pagelines"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
+                        </li>
+
+                        <li class="col-md-6">
+                            <h4>Parallax Sections</h4>
+                            <i class="fa fa-folder-o"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div><!-- /.END OF ROW -->
     </div><!-- /.END OF CONTAINER -->
@@ -222,11 +246,16 @@
 <section class="pricing" id="pricing">
     <div class="container">
         <div class="row">
+
+            <header class="section-heading">
+                <h3 class="heading-text">Awesome Pricing Plan</h3>
+            </header> <!-- /.section-heading -->
+
             <!-- PRICING SINGEL -->
             <div class="col-md-3">
                 <div class="pricing_elements">
                     <header>
-                        <h3 class="package">basic</h3>
+                        <h4 class="package">basic</h4>
                         <div class="price">
                             <p class="amount"><span>$49</span>/months</p>
                             <p>Billed annually or</br>$19 month-to-month</p>
@@ -243,7 +272,7 @@
             <div class="col-md-3">
                 <div class="pricing_elements">
                     <header>
-                        <h3 class="package">business</h3>
+                        <h4 class="package">business</h4>
                         <div class="price">
                             <p class="amount"><span>$53</span>/months</p>
                             <p>Billed annually or</br>$19 month-to-month</p>
@@ -261,7 +290,7 @@
             <div class="col-md-3">
                 <div class="pricing_elements">
                     <header>
-                        <h3 class="package">premiums</h3>
+                        <h4 class="package">premiums</h4>
                         <div class="price">
                             <p class="amount"><span>$66</span>/months</p>
                             <p>Billed annually or</br>$19 month-to-month</p>
@@ -281,7 +310,7 @@
             <div class="col-md-3">
                 <div class="pricing_elements">
                     <header>
-                        <h3 class="package">ultimate</h3>
+                        <h4 class="package">ultimate</h4>
                         <div class="price">
                             <p class="amount"><span>$89</span>/months</p>
                             <p>Billed annually or</br>$19 month-to-month</p>
@@ -332,14 +361,14 @@
 <!-- =========================
     SECREENSHOTS
 ============================== -->
-<section class="screenshot" id="screenshot">
+<section class="screenshot" id="screenshoots">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-heading">
+                <header class="section-heading">
                         <h2 class="heading-text">Screenshots</h2>
                         <hr class="lines">
-                </div> <!-- /.section-heading -->
+                </header> <!-- /.section-heading -->
 
                 <!-- Swiper -->
                <div class="swiper-container c2">
@@ -356,12 +385,7 @@
                        <div class="swiper-slide">
                            <img src="images/screenshoot/04.jpg" alt="">
                        </div>
-                       <div class="swiper-slide">Slide 5</div>
-                       <div class="swiper-slide">Slide 6</div>
-                       <div class="swiper-slide">Slide 7</div>
-                       <div class="swiper-slide">Slide 8</div>
-                       <div class="swiper-slide">Slide 9</div>
-                       <div class="swiper-slide">Slide 10</div>
+        
                    </div>
 
                    <!-- Add Pagination -->
@@ -381,10 +405,10 @@
         <div class="row">
 
             <div class="col-md-8">
-                <div class="section-heading text-center">
+                <header class="section-heading text-center">
                         <h2 class="heading-text">Who<br>Work With us</h2>
                         <hr class="lines">
-                </div> <!-- /.section-heading -->
+                </header> <!-- /.section-heading -->
 
                 <div class="swiper-testo1">
                     <div class="swiper-wrapper">
@@ -463,15 +487,30 @@
                     <!-- ICONIC BIG BTN -->
                     <li>
                     <a href="#" class="btn btn-base btn-icon">
-                        <span class="media-left">
-                            
-                            <i class="icon svg-playstore"></i>
-
+                        <span class="media-left">  
+                           <i class="fa fa-windows"></i>
                         </span>
+
                         <span class="media-body">
 
                             <span class="small-text">Available on</span>
-                            <span class="big-text">Play Store</span>
+                            <span class="big-text">Windows Store</span>
+                            
+                        </span>
+                    </a>
+                    </li>
+
+                    <!-- ICONIC BIG BTN -->
+                    <li>
+                    <a href="#" class="btn btn-base btn-icon">
+                        <span class="media-left"> 
+                            <i class="fa fa-apple"></i>
+                        </span>
+
+                        <span class="media-body">
+
+                            <span class="small-text">Available on</span>
+                            <span class="big-text">Apple Store</span>
                             
                         </span>
                     </a>
@@ -481,31 +520,13 @@
                     <li>
                     <a href="#" class="btn btn-base btn-icon">
                         <span class="media-left">
-                            
-                            <i class="icon svg-playstore"></i>
-
+                            <i class="fa fa-apple"></i>
                         </span>
+
                         <span class="media-body">
 
                             <span class="small-text">Available on</span>
-                            <span class="big-text">Play Store</span>
-                            
-                        </span>
-                    </a>
-                    </li>
-
-                    <!-- ICONIC BIG BTN -->
-                    <li>
-                    <a href="#" class="btn btn-base btn-icon">
-                        <span class="media-left">
-                            
-                            <i class="icon svg-playstore"></i>
-
-                        </span>
-                        <span class="media-body">
-
-                            <span class="small-text">Available on</span>
-                            <span class="big-text">Play Store</span>
+                            <span class="big-text">Google Play</span>
                             
                         </span>
                     </a>
@@ -524,10 +545,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9">
-                <div class="section-heading">
+                <header class="section-heading">
                     <h2 class="heading-text">Subscribe To Newsletter</h2>
                     <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                </div>
+                </header>
 
                 <!-- NEWSLETTER FORM -->
                 <form action="#" id="subscribe-mailchimp">
@@ -535,7 +556,7 @@
                         <input type="email" name="email" class="form-control secondary-color-bg" placeholder="Enter your email address">
 
                         <span class="input-group-btn">
-                            <button class="btn btn-base" type="submit"><span>Subscribe <i class="icon svg-arrow-right"></i></span></button>
+                            <button class="btn btn-base" type="submit"><span>Subscribe <i class="fa fa-paper-plane-o"></i></span></button>
                         </span>
                     </div>
                     
@@ -558,10 +579,10 @@
     <div class="container">
         <div class="row">
 
-            <div class="section-heading">
+            <header class="section-heading">
                 <h2 class="heading-text">Get in Toucht</h2>
                 <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes</p>
-            </div>
+            </header>
 
             <div class="contact-us-body">
                 <div class="col-md-7">
@@ -597,32 +618,32 @@
                        <!--  <div class="result col-md-12">
                             <p class="success-msg"><i class="icon svg-check icon-xs"></i> Thanks! Your message has been sent.</p>
                             <p class="error-msg"><i class="icon svg-close-circle icon-xs"></i> Sorry, Something went wrong!</p>
-                        </div>
- -->
+                        </div>-->
                     </form>
 
                 </div>
+
                 <div class="col-md-5">
                     <div class="address">
-                        <div class="section-heading">
-                            <h3 class="heading-text">Get in Toucht</h3>
-                            <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes</p>
 
-                            <hr class="line">
-                        </div>
+                        <header class="section-heading">
+                            <h3 class="heading-text">About Us</h3>
+                            <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes</p>
+                        </header>
 
                         <address>
-                            <p class="address">Allee 167c 10435 Berlin Germany</p>
+                            <p class="address"><i class="fa fa-map-marker"></i>Allee 167c 10435 Berlin Germany</p>
 
-                            <p class="email">MyrtleLRoling@dayrep.com</p>
-                            <p class="phone">+493047373795</p>
+                            <p class="email"><i class="fa fa-envelope-o"></i>MyrtleLRoling@dayrep.com</p>
+                            <p class="phone"><i class="fa fa-phone"></i>+493047373795</p>
                         </address>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </div><!-- /.END OF CONTACT-US-BODY -->
+        </div><!-- /.END OF ROW -->
+    </div><!-- /.END OF CONTAINER -->
 </section>
+<!-- /.END OF CONTACT-SECTION -->
 
 </main>
 
@@ -635,25 +656,25 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.swiper-pagination',
-            slidesPerView: 4,
-            paginationClickable: true,
-            spaceBetween: 30
-        });
+    // <script>
+    //     var swiper = new Swiper('.swiper-container', {
+    //         pagination: '.swiper-pagination',
+    //         slidesPerView: 4,
+    //         paginationClickable: true,
+    //         spaceBetween: 30
+    //     });
 
-    </script>
+    // </script>
 
-    <script>
-        var swiper = new Swiper('.swiper-testo1', {
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
-            paginationBulletRender: function (index, className) {
-                return '<span class="' + className + '">' + (index + 1) + '</span>';
-            }
-        });
-    </script>
+    // <script>
+    //     var swiper = new Swiper('.swiper-testo1', {
+    //         pagination: '.swiper-pagination',
+    //         paginationClickable: true,
+    //         paginationBulletRender: function (index, className) {
+    //             return '<span class="' + className + '">' + (index + 1) + '</span>';
+    //         }
+    //     });
+    // </script>
     
 
 </body>
