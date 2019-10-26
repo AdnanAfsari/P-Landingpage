@@ -1,0 +1,54 @@
+
+
+/*
+|----------------------------------------------------------------------------
+| PRICING
+|----------------------------------------------------------------------------
+*/
+.pricing{
+	min-height:730px;
+	background:$bg1;
+	.col-md-3{
+		padding:0px 0px;
+	}
+	.pricing_elements{
+		background:#fff;
+		border:1px solid #f1f1f1;
+		height:445px;
+		padding:10px 40px;
+		transition:0.3s;
+		&:hover{
+			background:#fff9f0; 
+		}
+		&:hover .package{
+			color:black;
+		}
+		&:hover .amount{
+			color:$btncolor;}
+		.package{
+			text-transform: capitalize;
+			color:$btncolor;
+			transition:0.3s;
+			padding-top: 19px;
+		}
+		.price{
+			
+			}
+		.amount{
+			transition:0.3s;
+			color:#313131;
+			span{
+				font-size:40px;
+			}
+		}
+	.package-details{
+		li{
+			padding-bottom:15px;
+		}
+		i{
+			color:$btncolor;
+			padding-right: 10px;
+		}
+	}
+	}
+}

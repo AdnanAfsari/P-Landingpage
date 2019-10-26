@@ -1,0 +1,34 @@
+
+
+/*
+|----------------------------------------------------------------------------
+| DOWNLOAD
+|----------------------------------------------------------------------------
+*/
+
+
+.download{
+	min-height:515px;
+	.section-heading{
+		margin-top:141px;
+		text-align:right;
+		margin-bottom:22px;
+		h2{
+			margin-bottom: 45px;
+		}
+	}
+}
+
+@media (max-width: 768px){
+  .download{
+	.section-heading{
+		margin-top:40px;
+		.sub-heading{
+			text-align: center;
+		}
+		h2{
+			margin-bottom: 25px;
+		}
+	}
+}
+}

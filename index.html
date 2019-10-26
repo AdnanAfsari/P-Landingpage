@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -19,37 +20,41 @@
     <!-- =========================
          FAV AND TOUCH ICONS  
     ============================== -->
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
 
     <!-- =========================
          STYLESHEETS 
     ============================== -->
+    
     <!-- BOOTSTRAP -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/libs/css/bootstrap.min.css">
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     <!-- FONTS -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
 
     <!-- NORMALIZE -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="assets/libs/css/normalize.css">
 
-    <!-- SWIPER -->
-     <link rel="stylesheet" href="css/swiper.min.css">
+     <!-- SWIPER -->
+     <link rel="stylesheet" href="assets/libs/css/swiper.min.css">
+
+     <!-- VENOBOX -->
+     <link rel="stylesheet" href="assets/libs/css/venobox.css" media="screen">
     
-    <!-- MAIN STYLESHEET -->
-    <link rel="stylesheet" href="css/main.css">
+   <!-- MAIN STYLESHEET -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- RESPONSIVE -->
-    <link rel="stylesheet" href="css/responsive.css">
+     <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="assets/libs/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
     <!--[if lt IE 7]>
@@ -75,7 +80,7 @@
             </button>
 
             <!-- BRAND LOGO -->
-            <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="#"><img src="assets/images/Logo.png" alt="logo"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="theme-navbar-collapse">
@@ -100,19 +105,20 @@
 
     <div class="slider_content">
         <div class="container">
-            <h1 class="heading-text">The New Big 
-            Thing App Landing</h1>
+            <div class="col-md-offset-4 col-md-8">
+                <h1 class="heading-text">The New Big Thing App Landing</h1>
 
-                <a href="#" class="btn btn-base btn-lg">
-                    <span class="media-left">
-                        <i class="fa fa-cloud-download"></i>
-                    </span>
+                    <a href="#" class="btn btn-base btn-lg">
+                        <span class="media-left">
+                            <i class="fa fa-cloud-download"></i>
+                        </span>
 
-                    <span class="media-body">
-                        <span class="small-text">Available on</span>
-                        <span class="big-text">Download Now</span>
-                    </span>
-                </a>
+                        <span class="media-body">
+                            <span class="small-text">Available on</span>
+                            <span class="big-text">Download Now</span>
+                        </span>
+                    </a>
+            </div>
         </div><!-- /.END OF CONTAINER -->
 
     </div><!-- /.END OF CONTENT  -->
@@ -133,21 +139,21 @@
             </header> <!-- /.section-heading -->
             
             <!-- SINGEL-ITEM -->
-            <div class="col-md-4 features_items">
-                <i class="fa fa-rocket"></i>
-                <h4>Custom Shortcodes</h4>
+            <div class="col-md-offset-1 col-md-3 features_items">
+                <i class="fa fa-rocket icon-features"></i>
+                <h4 class="items-heading">Custom Shortcodes</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
             <!-- SINGEL-ITEM -->
-            <div class="col-md-4 features_items">
-                <i class="fa fa-microphone"></i>
-                <h4>Next Level Features</h4>
+            <div class="col-md-3 features_items">
+                <i class="fa fa-microphone icon-features"></i>
+                <h4 class="items-heading">Next Level Features</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
             <!-- SINGEL-ITEM -->
-            <div class="col-md-4 features_items">
-                <i class="fa fa-bug"></i>
-                <h4>fontawsome icon</h4>
+            <div class="col-md-3 features_items">
+                <i class="fa fa-bug icon-features"></i>
+                <h4 class="items-heading">fontawsome icon</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
         </div><!-- /.END OF ROW -->
@@ -163,19 +169,19 @@
     <div class="container">
         <div class="row">
             <div class="">
-                <div class="col-md-6">
+                <div class="col-md-6 mt_55">
                     <header class="section-heading">
                         <h3 class="heading-text">Our Different Features</h3>
                     </header> <!-- /.section-heading -->
                     
-                    <div class="diff-features-content">
+                    <div class="diff-features-content ml_48">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ante ex, fermentum vel libero eget, interdum semper libero. Curabitur egestas, arcu id tempor convallisx ortor efficitur turpis, eget mattis tellus risus ut dolor tempus hendrerit vehicula. Curabitur er cursus blandit velit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magn aliquam erat volutpat.</p>
                     </div>
-                    <a href="" class="btn-secondary">see more</a>
+                    <a href="" class="btn btn-base btn-xml ml_48">see more</a>
                 </div>
 
-                <div class="col-md-6">
-                    <img src="images/features.png" alt="features-image">
+                <div class="col-md-6 mt_100">
+                    <img src="assets/images/features.png" class="img-responsive"alt="features-image">
                 </div>
             </div>
         </div><!-- /.END OF ROW -->
@@ -190,46 +196,50 @@
 <section class="why-this-app" id="why-this-app">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <img src="images/iphone.png" alt="iphone">
+
+            <div class="col-md-6 mt_75">
+                <img src="assets/images/iphone.png" alt="iphone" class="img-responsive">
             </div>
 
             <div class="col-md-6">
-                <header class="section-heading">
-                    <h3 class="heading-text">Great Display on Mobile</h3>
+
+                <header class="section-heading mt_95">
+                    <h3 class="heading-text mb_54">Great Display on Mobile</h3>
                 </header> <!-- /.section-heading -->
                 
-                <div class="row">
+                <div class="col-md-6 col-sm-6">
                     <ul class="list-block">
-                        <li class="col-md-6 pull-left">
+                        <li>
                             <h4>Unlock Features</h4>
-                            <i class="fa fa-unlock"></i>
+                            <i class="fa fa-unlock icon-app"></i>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
 
                         </li>
-                        <li class="col-md-6">
-                            <h4>Fully Responsive</h4>
-                            <i class="fa fa-file-image-o"></i>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
 
+                        <li>
+                            <h4>Modern Design</h4>
+                            <i class="fa fa-pagelines icon-app"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
                         </li>
-                    
+
                     </ul>
                 </div>
 
-                <div class="row">
+                <div class="col-md-6 col-sm-6">
                     <ul class="list-block">
-                        <li class="col-md-6 pull-left">
-                            <h4>Modern Design</h4>
-                            <i class="fa fa-pagelines"></i>
+
+                        <li>
+                            <h4>Fully Responsive</h4>
+                            <i class="fa fa-file-image-o icon-app"></i>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
+
                         </li>
 
-                        <li class="col-md-6">
+                        <li>
                             <h4>Parallax Sections</h4>
-                            <i class="fa fa-folder-o"></i>
+                            <i class="fa fa-folder-o icon-app"></i>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, qui.</p>
-                        </li>
+                        </li>        
                     </ul>
                 </div>
             </div>
@@ -248,7 +258,7 @@
         <div class="row">
 
             <header class="section-heading">
-                <h3 class="heading-text">Awesome Pricing Plan</h3>
+                <h3 class="heading-text mt_90 mb_53 ml_49">Awesome Pricing Plan</h3>
             </header> <!-- /.section-heading -->
 
             <!-- PRICING SINGEL -->
@@ -263,11 +273,12 @@
                         <hr class="short-line">
                     </header>
                     <ul class="package-details">
-                        <li><i class=""></i>User</li>
-                        <li><i class=""></i>Dashboard</li>
+                        <li><i class="fa fa-check"></i>User</li>
+                        <li><i class="fa fa-check"></i>Dashboard</li>
                     </ul>
                 </div>
             </div>
+
             <!-- PRICING SINGEL -->
             <div class="col-md-3">
                 <div class="pricing_elements">
@@ -280,12 +291,13 @@
                         <hr class="short-line">
                     </header>
                     <ul class="package-details">
-                        <li><i class=""></i>User</li>
-                        <li><i class=""></i>Unlimited Dashboard</li>
-                        <li><i class=""></i>custom css</li>
+                        <li><i class="fa fa-check"></i>User</li>
+                        <li><i class="fa fa-check"></i>Unlimited Dashboard</li>
+                        <li><i class="fa fa-check"></i>custom css</li>
                     </ul>
                 </div>
             </div>
+
             <!-- PRICING SINGEL -->
             <div class="col-md-3">
                 <div class="pricing_elements">
@@ -298,16 +310,17 @@
                         <hr class="short-line">
                     </header>
                     <ul class="package-details">
-                        <li><i class=""></i>20 User</li>
-                        <li><i class=""></i>Dashboard</li>
-                        <li><i class=""></i>custom css</li>
-                        <li><i class=""></i>ip restriction</li>
-                        <li><i class=""></i>custom domain</li>
+                        <li><i class="fa fa-check"></i>20 User</li>
+                        <li><i class="fa fa-check"></i>Dashboard</li>
+                        <li><i class="fa fa-check"></i>custom css</li>
+                        <li><i class="fa fa-check"></i>ip restriction</li>
+                        <li><i class="fa fa-check"></i>custom domain</li>
                     </ul>
                 </div>
             </div>
+
             <!-- PRICING SINGEL -->
-            <div class="col-md-3">
+            <div class="col-md-3 mb_50">
                 <div class="pricing_elements">
                     <header>
                         <h4 class="package">ultimate</h4>
@@ -318,11 +331,11 @@
                         <hr class="short-line">
                     </header>
                     <ul class="package-details">
-                        <li><i class=""></i>20 User</li>
-                        <li><i class=""></i>Unlimited Dashboard</li>
-                        <li><i class=""></i>custom css</li>
-                        <li><i class=""></i>ip restriction</li>
-                        <li><i class=""></i>custom domain</li>
+                        <li><i class="fa fa-check"></i>20 User</li>
+                        <li><i class="fa fa-check"></i>Unlimited Dashboard</li>
+                        <li><i class="fa fa-check"></i>custom css</li>
+                        <li><i class="fa fa-check"></i>ip restriction</li>
+                        <li><i class="fa fa-check"></i>custom domain</li>
                     </ul>
                 </div>
             </div>
@@ -334,25 +347,23 @@
 <!-- =========================
    VIDEO
 ============================== -->
-<section class="videos the-video-2 video-bg">
-    <!-- VIDEO FILES -->
-    <div class="<!-- section-video -->">
-        <video poster="video/video.jpg" class="bgvid" loop="">
-            <source src="https://www.youtube.com/watch?v=rZKe-pBeAgM">
-            <source src="video/video.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
-            <source src="video/video.html" type="video/ogv">
-
-        </video>
-
-    </div>
-    
+<section class="video">
     <div class="container">
         <div class="row">
+
             <div class="col-lg-12 text-center">
-                <h2 class="heading-text">You Can Change</h2>
-                <button><i class="icon svg-video-play icon-xlg"></i></button>
-                <p>Sed ut perspiciatis unde omnis iste natus error</p>
+
+                <div class="content">
+
+                    <a class="venobox_custom button" data-type="youtube" href="https://www.youtube.com/watch?v=3MYhhO_nSAk"><i class="fa fa-play"></i></a>
+
+                    <h2 class="heading-text">You Can Change</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error</p>
+
+                </div>
+
             </div>
+
         </div>  <!-- /.ROW -->
     </div><!-- /.END OF CONTAINER -->
 </section>
@@ -364,32 +375,41 @@
 <section class="screenshot" id="screenshoots">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <header class="section-heading">
-                        <h2 class="heading-text">Screenshots</h2>
-                        <hr class="lines">
+            <div class="col-md-12 mt_90">
+
+                <header class="section-heading center">
+                        <h2 class="heading-text mb_48">Screenshots</h2>
                 </header> <!-- /.section-heading -->
 
                 <!-- Swiper -->
-               <div class="swiper-container c2">
+               <div class="swiper-container screenshot-slides mb_50">
                    <div class="swiper-wrapper">
+
                        <div class="swiper-slide">
-                           <img src="images/screenshoot/01.jpg" alt="">
+                           <img src="assets/images/screenshoot/01.jpg" alt="">
                        </div>
+
                        <div class="swiper-slide">
-                           <img src="images/screenshoot/02.jpg" alt="">
+                           <img src="assets/images/screenshoot/02.jpg" alt="">
                        </div>
+
                        <div class="swiper-slide">
-                           <img src="images/screenshoot/03.jpg" alt="">
+                           <img src="assets/images/screenshoot/03.jpg" alt="">
                        </div>
+
                        <div class="swiper-slide">
-                           <img src="images/screenshoot/04.jpg" alt="">
+                           <img src="assets/images/screenshoot/04.jpg" alt="">
+                       </div>
+
+                       <div class="swiper-slide">
+                           <img src="assets/images/screenshoot/04.jpg" alt="">
                        </div>
         
                    </div>
 
                    <!-- Add Pagination -->
-                   <div class="swiper-pagination c2-w"></div>
+                   <div class="swiper-pagination"></div>
+
                </div>
             </div><!-- /.END OF COLOUM -->
         </div><!-- /.END OF ROW -->
@@ -400,65 +420,103 @@
 <!-- =========================
     TESTOMINIAL
 ============================== -->
-<section class="testominial" id="testominial">
+<section class="testimonials-1" id="testominial">
     <div class="container">
         <div class="row">
 
             <div class="col-md-8">
-                <header class="section-heading text-center">
-                        <h2 class="heading-text">Who<br>Work With us</h2>
-                        <hr class="lines">
+                <header class="section-heading mt_50">
+                        <h2 class="heading-text">Who <br> Work With us</h2>
                 </header> <!-- /.section-heading -->
 
-                <div class="swiper-testo1">
+                <!-- TESTOMONIAL CONTENT -->
+                <div class="swiper-container testimonials-content">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="swiper_content">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-                                <p class="client_name">Koddous Debiet</p>
-                                <p class="position">CEO - Apservices</p>
-                            </div>
+                        <div class="swiper-slide">
+                            <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </blockquote>
+                            <p>
+                                <span class="client-name">Koddous Debiet</span>
+                                <span class="position text-small">CEO-Appservice</span>
+                            </p>
                         </div>
-                        <div class="swiper-slide">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-                            <p class="client_name">Koddous Debiet</p>
-                            <p class="position">CEO - Apservices</p>
+                        <div class="swiper-slide">
+                            <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </blockquote>
+                            <p>
+                                <span class="client-name">Koddous Debiet</span>
+                                <span class="position text-small">CEO-Appservice</span>
+                            </p>
                         </div>
-                        <div class="swiper-slide">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-                            <p class="client_name">Koddous Debiet</p>
-                            <p class="position">CEO - Apservices</p>
+                        <div class="swiper-slide">
+                            <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </blockquote>
+                            <p>
+                                <span class="client-name">Koddous Debiet</span>
+                                <span class="position text-small">CEO-Appservice</span>
+                            </p>
                         </div>
-                        <div class="swiper-slide">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-                            <p class="client_name">Koddous Debiet</p>
-                            <p class="position">CEO - Apservices</p>
+                        <div class="swiper-slide">
+                            <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </blockquote>
+                            <p>
+                                <span class="client-name">Koddous Debiet</span>
+                                <span class="position text-small">CEO-Appservice</span>
+                            </p>
                         </div>
-                        <div class="swiper-slide">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-                            <p class="client_name">Koddous Debiet</p>
-                            <p class="position">CEO - Apservices</p>
+                        <div class="swiper-slide">
+                            <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </blockquote>
+                            <p>
+                                <span class="client-name">Koddous Debiet</span>
+                                <span class="position text-small">CEO-Appservice</span>
+                            </p>
                         </div>
-                        <div class="swiper-slide">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 
-                            <p class="client_name">Koddous Debiet</p>
-                            <p class="position">CEO - Apservices</p>
+                        <div class="swiper-slide">
+                            <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </blockquote>
+                            <p>
+                                <span class="client-name">Koddous Debiet</span>
+                                <span class="position text-small">CEO-Appservice</span>
+                            </p>
                         </div>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination c2-w"></div>
+                </div>
+
+                <!-- TESTOMINAIL THUMB -->
+                <div class="swiper-container testimonials-thumb hidden-xs">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="item"><img src="assets/images/testo_thumbs/1.png" alt="logotype"></div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item"><img src="assets/images/testo_thumbs/2.png" alt="logotype"></div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item"><img src="assets/images/testo_thumbs/3.png" alt="dogtype"></div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item"><img src="assets/images/testo_thumbs/4.png" alt="logotype"></div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="item"><img src="assets/images/testo_thumbs/5.png" alt="logotype"></div>
+                        </div>
+                         <div class="swiper-slide">
+                            <div class="item"><img src="assets/images/testo_thumbs/6.png" alt="logotype"></div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div><!-- /.END OF COL -->
 
-            <div class="row col-md-4">
-                <img src="" alt="">
+            <div class="col-md-4 testimonials-right ">
+                <img src="assets/images/man.png" alt="man"class="img-responsive mt_100">
             </div><!-- /.END OF COL -->
 
         </div><!-- /.END OF ROW -->
@@ -470,19 +528,22 @@
 <!-- =========================
     DOWNLOAD APPLICATION
 ============================== -->
-<section class="download" id="download">
+<section class="download text-center" id="download">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+
+            <div class="col-md-6 pull-right">
+
                 <header class="section-heading">
                     <h2>Download Application</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes.</p>
+                    <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes.</p>
                 </header>
+
             </div><!-- /.END OF COL -->
         </div><!-- /.END OF ROW -->
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12 col-sm-12 text_align mb_50">
                 <ul class="buttons-group">
                     <!-- ICONIC BIG BTN -->
                     <li>
@@ -493,8 +554,8 @@
 
                         <span class="media-body">
 
-                            <span class="small-text">Available on</span>
-                            <span class="big-text">Windows Store</span>
+                            <span class="small-text">Download form</span>
+                            <span class="big-text">Win Store</span>
                             
                         </span>
                     </a>
@@ -509,8 +570,8 @@
 
                         <span class="media-body">
 
-                            <span class="small-text">Available on</span>
-                            <span class="big-text">Apple Store</span>
+                            <span class="small-text">Download form</span>
+                            <span class="big-text">App Store</span>
                             
                         </span>
                     </a>
@@ -525,8 +586,8 @@
 
                         <span class="media-body">
 
-                            <span class="small-text">Available on</span>
-                            <span class="big-text">Google Play</span>
+                            <span class="small-text">Download form</span>
+                            <span class="big-text">play Store</span>
                             
                         </span>
                     </a>
@@ -543,22 +604,41 @@
 ============================== -->
 <section class="newsletter" id="newsletter">
     <div class="container">
+
         <div class="row">
-            <div class="col-md-9">
+
+            <div class="col-md-10">
                 <header class="section-heading">
                     <h2 class="heading-text">Subscribe To Newsletter</h2>
-                    <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                    <p class="sub-heading ml_48">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                 </header>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-10">
 
                 <!-- NEWSLETTER FORM -->
-                <form action="#" id="subscribe-mailchimp">
-                    <div class="input-group input-group-big">
-                        <input type="email" name="email" class="form-control secondary-color-bg" placeholder="Enter your email address">
+                <form action="#" id="subscribe-mailchimp" class="">
+                    
+                    <div class="signup">
+                        <div action="index.html" method="post" class="subscribe-form">
+                          <input type="email" name="email" class="col-md-7 col-sm-6 col-xs-12 newsletter_form ml_48 ml_0" placeholder="Enter your email address" autofocus>
 
-                        <span class="input-group-btn">
-                            <button class="btn btn-base" type="submit"><span>Subscribe <i class="fa fa-paper-plane-o"></i></span></button>
-                        </span>
+                          <button class="btn btn-base news mt_60 mb_50" type="submit">
+                              <span class="media-left">
+                                  Subscribe 
+                              </span>
+
+                              <span class="media-body">
+                                  <i class="fa fa-paper-plane-o"></i>
+                              </span>
+                          </button>
+                        </div>
                     </div>
+                    
                     
                     <!-- <div class="result">
                         <p class="success-msg"><i class="icon svg-check icon-xs"></i> You email has been stored!</p>
@@ -566,8 +646,8 @@
                     </div> -->
                 </form>
 
-            </div><!-- /.END OF COL -->
-        </div><!-- /.END OF ROW -->
+            </div>
+        </div>
     </div><!-- /.END OF CONTAINER -->
 </section>
 <!-- /.END OF NEWSLETTER-SECTION -->
@@ -577,105 +657,107 @@
 ============================== -->
 <section class="contact-us" id="contact-us">
     <div class="container">
+        <div class="row mt_52">
+            <div class="col-md-offset-2 col-md-8">
+                <header class="section-heading center">
+                    <h2 class="heading-text mt_90 mb_43">Get in Toucht</h2>
+                    <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes</p>
+                </header>
+            </div>
+        </div>
+
         <div class="row">
-
-            <header class="section-heading">
-                <h2 class="heading-text">Get in Toucht</h2>
-                <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes</p>
-            </header>
-
-            <div class="contact-us-body">
-                <div class="col-md-7">
-                    <form action="http://nemolandingpage.com/gradient-overlay/php/sendmail.php" id="contact-form" class="row">
-                        <div class="col-md-12">
-                            <div class="form-underlined">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name">
+                <div class="contact-us-body">
+                    <div class="col-md-6">
+                        <form action="" id="contact-form" class="row">
+                            <div class="col-md-12">
+                                <div class="form-underlined">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="form-underlined">
-                                <input type="email" name="email" class="form-control" placeholder="Your Email">
+                            <div class="col-md-12">
+                                <div class="form-underlined">
+                                    <input type="email" name="email" class="form-control" placeholder="Your Email">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="form-underlined">
-                                <input type="text" name="subject" class="form-control" placeholder="Subject">
+                            <div class="col-md-12">
+                                <div class="form-underlined">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12">
-                            <div class="form-underlined">
-                                <textarea rows="1" name="message" class="form-control" placeholder="Write your message here..."></textarea>
+                            <div class="col-md-12">
+                                <div class="form-underlined">
+                                    <textarea rows="1" name="message" class="form-control" placeholder="Write your message here..."></textarea>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-12 text-center">
-                            <button class="btn btn-base btn-lg"><span>Send</span></button>
-                        </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-base btn-contact pull-right"><span>Send</span></button>
+                            </div>
 
-                       <!--  <div class="result col-md-12">
-                            <p class="success-msg"><i class="icon svg-check icon-xs"></i> Thanks! Your message has been sent.</p>
-                            <p class="error-msg"><i class="icon svg-close-circle icon-xs"></i> Sorry, Something went wrong!</p>
-                        </div>-->
-                    </form>
-
-                </div>
-
-                <div class="col-md-5">
-                    <div class="address">
-
-                        <header class="section-heading">
-                            <h3 class="heading-text">About Us</h3>
-                            <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes</p>
-                        </header>
-
-                        <address>
-                            <p class="address"><i class="fa fa-map-marker"></i>Allee 167c 10435 Berlin Germany</p>
-
-                            <p class="email"><i class="fa fa-envelope-o"></i>MyrtleLRoling@dayrep.com</p>
-                            <p class="phone"><i class="fa fa-phone"></i>+493047373795</p>
-                        </address>
+                           <!--  <div class="result col-md-12">
+                                <p class="success-msg"><i class="icon svg-check icon-xs"></i> Thanks! Your message has been sent.</p>
+                                <p class="error-msg"><i class="icon svg-close-circle icon-xs"></i> Sorry, Something went wrong!</p>
+                            </div>-->
+                        </form>
                     </div>
-                </div>
-            </div><!-- /.END OF CONTACT-US-BODY -->
-        </div><!-- /.END OF ROW -->
+
+                    <div class=" col-md-offset-1 col-md-5">
+                        <div class="address_area">
+
+                            <header class="section-heading">
+                                <h3 class="heading-text">About Us</h3>
+                                <p class="sub-heading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. dis parturient montes</p>
+                            </header>
+                                <hr class="short-lines">
+                            <address>
+                                <p class="address"><i class="fa fa-map-marker"></i>Allee 167c 10435 Berlin Germany</p>
+
+                                <p class="email"><i class="fa fa-envelope-o"></i>MyrtleLRoling@dayrep.com</p>
+                                <p class="phone"><i class="fa fa-phone"></i>+493047373795</p>
+                            </address>
+                        </div>
+                    </div>
+                </div><!-- /.END OF CONTACT-US-BODY -->
+        </div>
+        <!-- /.END OF ROW -->
     </div><!-- /.END OF CONTAINER -->
 </section>
 <!-- /.END OF CONTACT-SECTION -->
+
+<!-- =========================
+     FOOTER
+============================== -->
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <p class="copyright">&copy;Apservices, all rights reserved.</p>
+
+            </div>
+        </div>  <!-- /.END OF ROW-->
+    </div><!-- ./END OF CONTAINER -->
+</footer>
+<!-- ./END OF FOOTER -->
+
 
 </main>
 
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-    // <script>
-    //     var swiper = new Swiper('.swiper-container', {
-    //         pagination: '.swiper-pagination',
-    //         slidesPerView: 4,
-    //         paginationClickable: true,
-    //         spaceBetween: 30
-    //     });
-
-    // </script>
-
-    // <script>
-    //     var swiper = new Swiper('.swiper-testo1', {
-    //         pagination: '.swiper-pagination',
-    //         paginationClickable: true,
-    //         paginationBulletRender: function (index, className) {
-    //             return '<span class="' + className + '">' + (index + 1) + '</span>';
-    //         }
-    //     });
-    // </script>
-    
+    <script>window.jQuery || document.write('<script src="assets/libs/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="assets/libs/js/bootstrap.min.js"></script>
+    <script src="assets/libs/js/swiper.min.js"></script>
+    <script src="assets/libs/js/venobox.min.js"></script>
+    <script src="assets/libs/js/jquery.localScroll.min.js"></script>
+    <script src="assets/libs/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,77 @@
+/*
+|----------------------------------------------------------------------------
+| FORM
+|----------------------------------------------------------------------------
+*/
+
+.newsletter_form{
+	border:none;
+	border-radius: 20px;
+	height: 70px;
+	padding-left: 35px;
+	// margin-right:40px;
+	box-shadow:none;
+
+	&::-webkit-input-placeholder  {
+  		text-transform: uppercase
+	}
+	&:-moz-placeholder { /* Firefox 18- */
+	   text-transform: uppercase
+	}
+
+	&::-moz-placeholder {  /* Firefox 19+ */
+	   text-transform: uppercase
+	}
+	&:-ms-input-placeholder {  
+   		text-transform: uppercase
+	}
+}
+.news.btn-base{
+	height:70px;
+	float:right;
+	border-top-left-radius: 20px!important;
+	border-bottom-left-radius: 20px!important;
+	padding:0 31px;
+	font-size: 20px;
+	.media-left{
+		padding-right:52px;
+	}
+
+	.media-body{
+		
+	}
+	i{
+		border-right: none;
+		border-left:1px solid #fff;
+		padding-left:30px;
+	}
+}
+
+.form-underlined{
+	margin-top: 55px;
+	.form-control{
+		border:none;
+		box-shadow:none;
+		border-radius:0;
+		border-bottom:1px solid #d4d4d4;
+		padding-bottom:15px;
+	}
+}
+
+// @media (max-width: 765px){
+//   .newsletter_form{
+// 	width:96%;
+// 	}
+
+//   .input-group-btn .btn-base{
+// 		margin-top: 30px;
+// 		margin-bottom: 60px;
+// 		margin-right: 28px;
+// }
+// }
+
+// @media (min-width: 980px){
+//   .newsletter_form{
+// 	width:55%;
+// 	}
+// }

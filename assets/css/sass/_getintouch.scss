@@ -1,0 +1,36 @@
+
+/*
+|----------------------------------------------------------------------------
+| GETINTOUCH AREA
+|----------------------------------------------------------------------------
+*/
+
+.contact-us{
+	min-height:945px;
+	.contact-us-body{
+		border-radius: 40px;
+		background-color: rgba(244, 244, 244, 0);
+		box-shadow: 2.5px 4.33px 13px 0px rgba(122, 122, 122, 0.059);
+		min-height: 544px;
+		z-index: 9;
+		margin-top: 30px
+	}
+}
+.address_area{
+	.section-heading{
+		margin-top: 58px;
+		.sub-heading{
+			margin-bottom: 60px;
+		}
+
+	}
+	.short-lines{
+		margin-bottom: 60px;
+	}
+	address{
+		i{
+			padding-right: 15px;
+			padding-bottom: 20px;
+		}
+	}
+}

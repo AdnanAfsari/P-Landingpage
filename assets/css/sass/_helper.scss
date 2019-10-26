@@ -1,0 +1,75 @@
+/*
+|----------------------------------------------------------------------------
+| HELPER CLASSES
+|----------------------------------------------------------------------------
+*/
+.center{
+	text-align:center;
+}
+.mt_95{
+	margin-top:95px;
+}
+
+.mt_100{
+	margin-top:100px;
+}
+.mt_47{
+	margin-top:47;
+}
+.mt_50{
+	margin-top:50px;
+}
+.mt_55{
+	margin-top:55px;
+}
+
+.ml_48{
+	margin-left:48px;
+}
+
+@media (max-width: 768px){
+  .ml_49{
+  	margin-left: 10px!important;
+  }
+	  .ml_48{
+		margin:0 10px;
+	}
+	.mb_50{
+		margin-bottom: 50px;
+	}
+	.mt_60{
+		margin-top: 60px;
+	}
+	.ml_0{
+		margin-left: 0;
+	}
+}
+
+p {
+  margin-bottom: 20px;
+}
+.ml_15{
+	margin-left:15px;
+}
+.ml_49{
+	margin-left: -49px;
+}
+.mt_75{
+	margin-top: 75px;
+}
+
+.mt_90{
+	margin-top: 90px;
+}
+.mb_54{
+	margin-bottom: 54px;
+}
+.mb_48{
+	margin-bottom: 48px;
+}
+.mb_43{
+	margin-bottom: 43px;
+}
+.mb_53{
+	margin-bottom: 53px;
+}

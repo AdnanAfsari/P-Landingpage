@@ -1,0 +1,155 @@
+/******************** BUTTONS ********************/
+.buttons-group{
+ display:inline-block;
+}
+
+.btn  {
+   border-radius: 18px;
+  transition:  all 0.3s;
+  border:  0;
+  background:$btncolor;
+  &:hover{
+    color:#fff;
+    background:#d79224;
+  } 
+  &:active{
+    color:#fff;
+    background:#d79224;
+  } 
+  &:focus{
+    color:#fff;
+    background:#d79224;
+  }   
+}
+
+.btn-base  {
+  color:  #fff;
+  z-index:  1;
+  vertical-align: middle;
+  line-height:16px;
+  transition:  all 0.3s;
+  i{
+  	border-right:1px solid #fff;
+  	padding-right:10px;
+  	height: 40px;
+  	padding-top:5px;
+    font-size:30px;
+  } 
+}
+
+.btn-base .small-text, 
+.btn-base .big-text{
+  display:block;
+  text-align:left;
+}
+
+.btn-base .small-text  {  
+  font-size:  12px;
+  text-transform: uppercase
+}
+.btn-base .big-text  {
+  font-size:  20px;
+  // font-weight: 600;
+}
+
+.btn-base .media-left, 
+.btn-base .media-body  {
+  width:auto;  
+  vertical-align:middle;
+}
+
+.btn-lg  {  
+ padding: 14px 29px;  
+}
+@media (max-width: 768px) {
+   .btn-lg{
+     margin-right: 13px;
+   } 
+  .btn-icon{
+    margin-bottom:30px!important;
+  }
+}
+
+.btn-lg .media-left  {
+  padding-right:  15px;
+}
+
+.btn-icon{
+  background:#f4f4f4;
+  width: 263px;
+  height: 69px;
+   
+  padding-top:15px;
+  line-height:1.2;
+  text-transform: capitalize;
+  transition:  all 0.2s;
+      &:last-child{
+        margin-right:0;
+      }
+
+
+    i{
+      color:#5d5d5d;
+      border-right:1px solid $btncolor;
+      padding:0 20px;
+      transition:  all 0.2s;
+    }
+  .small-text{
+      color:#5d5d5d;
+      padding-left: 10px;
+      font-size:15px;
+      transition:  all 0.2s;
+    }
+
+  .big-text{
+      color: $btncolor;
+      padding-left: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      transition:  all 0.2s;
+    }
+
+  &:hover{
+    background:$btncolor;
+  }
+  &:hover i{
+    color:#fff;
+    border-right:1px solid #fff;
+  }
+  &:hover .small-text{
+    color:#fff;
+  }
+  &:hover .big-text{
+    color:#fff;
+  }
+}
+
+@media (min-width: 992px) {
+  .download{
+    .text_align{
+      text-align:right;
+    }
+  }
+    .buttons-group{
+      li {
+       display: inline-block;
+       margin-top:20px;
+    }
+  }
+  .btn-icon{
+    margin:0 14px!important;
+  }
+}
+
+.btn-contact{
+  padding:28px 83px;
+  font-size:20px;
+  margin-top:43px;
+}
+.btn-xml{
+  text-transform: uppercase;
+  padding: 14px 33px;
+
+}
+
+

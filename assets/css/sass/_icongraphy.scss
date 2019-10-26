@@ -1,0 +1,61 @@
+/******************** ICONGRAPHY ********************/
+
+.icon-features{
+	border:1px solid $btncolor;
+	height: 86px;
+	width: 86px;
+	line-height: 86px;
+	display: inline-block;
+	border-radius: 100%;
+	position: relative;
+	background: #fff;
+	top: -45px;
+	color: $btncolor;
+	font-size: 24px;
+	-webkit-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+	transition:all 0.2s;
+	box-sizing:border-box;
+	&:after{
+      content:"";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom:-5px;
+      border-radius:100%;
+      border:3px solid #fff;
+      -webkit-box-shadow: 0px 0px 6px 3px rgba(93,93,93,0.5);
+      -moz-box-shadow: 0px 0px 6px 3px rgba(93,93,93,0.5);
+      box-shadow: 0px 0px 6px 3px rgba(93,93,93,0.5);
+      opacity:0;
+      -webkit-transition:all 0.2s;
+      -moz-transition:all 0.2s;
+      transition:all 0.2s;
+     
+   }
+	
+}
+
+.features_items{
+	&:hover .icon-features{
+		background:$btncolor;
+		color: #fff;
+        &:after{
+           opacity: 1;
+        }
+   	}
+}		
+
+
+.icon-app{
+	border:1px solid #9d9c9c;
+	border-radius:100%;
+	padding: 15px;
+	transition:0.2s;
+	&:hover{
+		border:1px solid $btncolor;
+		color: #fff;
+		background:$btncolor;
+	}
+}
