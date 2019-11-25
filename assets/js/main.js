@@ -37,7 +37,7 @@ $(document).ready(function() {
 	|----------------------------------------------------------------------------
 	*/
 	/* default settings */
-	$('.venobox').venobox(); 
+	$('.venobox').venobox();
 
 
 	/* custom settings */
@@ -58,7 +58,7 @@ $(document).ready(function() {
 	|----------------------------------------------------------------------------
 	|	SCREENSHOOTS
 	|----------------------------------------------------------------------------
-	*/	       
+	*/
 	var screenShot_1 = new Swiper ('.screenshot-slides', {
 	autoplay: 3000,
 	slidesPerView: 5,
@@ -78,7 +78,7 @@ $(document).ready(function() {
 	480: {
 	 spaceBetween: 5,
 	 slidesPerView: 1
-	}    
+	}
 	}
 	});
 
