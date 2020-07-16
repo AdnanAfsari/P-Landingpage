@@ -10,6 +10,7 @@ CSS 3
 
 ## Framework
 CSS Reset
+Bootstrap
 
 ## Setup
 > Open your git bash and **cd** to the location you'd like to put your files the run the command below.
