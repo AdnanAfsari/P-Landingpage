@@ -1,6 +1,6 @@
 # P-Landingpage
 
-P-Landingpage is a landing page for a mobile app.
+> P-Landingpage is a landing page for a mobile app.
 
 ![ P-Landingpage](p.png " P-Landingpage")
 ## Technologies
@@ -18,8 +18,35 @@ Bootstrap
 
 `git clone https://github.com/AdnanAfsari/P-Landingpage`
 
-Here is a link to the live preview [preview](https://raw.githack.com/AdnanAfsari/P-Landingpage/master/index.html)
+## Live Demo
+
+[Live Demo Link](https://raw.githack.com/AdnanAfsari/P-Landingpage/master/index.html)
 
 
-## Author
-[Adnan Afsari](https://github.com/AdnanAfsari)
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@AdnanAfsari](https://github.com/AdnanAfsari)
+- Twitter: [@AdnanAfsari](https://twitter.com/adnanafsari)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adnanafsari)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
